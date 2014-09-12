@@ -18,6 +18,12 @@ describe('Models', function () {
       area.name.should.be.eql('Some Area');
     });
 
+    it('should not be valid', function () {
+      var area = new Area();
+      area.should.be.ok;
+      area.validate().should.not.be.ok;
+    })
+
   });
 
 });
