@@ -1,0 +1,36 @@
+{
+  "name": "epd",
+  "version": "1.0.0",
+  "description": "EPD ===",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://TylerGarlick@github.com/TylerGarlick/epd.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerGarlick/epd/issues"
+  },
+  "homepage": "https://github.com/TylerGarlick/epd",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.21.4"
+  },
+  "dependencies": {
+    "arango": "^0.4.4",
+    "bluebird": "^2.3.2",
+    "boom": "^2.5.1",
+    "hapi": "^6.8.1",
+    "joi": "^4.6.2",
+    "lodash": "^2.4.1",
+    "moment": "^2.8.3",
+    "poop": "^1.2.2"
+  }
+}

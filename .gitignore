@@ -74,3 +74,5 @@ $RECYCLE.BIN/
 *.msi
 *.msm
 *.msp
+
+public/bower_components
